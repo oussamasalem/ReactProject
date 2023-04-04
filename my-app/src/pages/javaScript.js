@@ -1,13 +1,12 @@
 
 import Header from '../components/header';
 import Footer from '../components/footer';
+import MainContent from '../components/MainContent';
 const JavaScript = () => {
   return (
     <>
     <Header />
-      <main>
-      JavaScript page
-      </main>
+    <MainContent PageName="JavaScript" designer="salem" />
       <Footer />
     </>
   );
