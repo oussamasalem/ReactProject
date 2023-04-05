@@ -2,15 +2,23 @@
 import Header from '../components/header';
 import Footer from '../components/footer';
 import MainContent from '../components/MainContent';
+import { Helmet, HelmetProvider } from 'react-helmet-async';
+
 const Css = () => {
   return (
-    <>
-      <Header />
-      
-      <MainContent PageName="Css" designer="salem" />
+    <div className='css'>
+      <HelmetProvider>
+        <Helmet>
+            <title>css</title>
+        </Helmet>
 
-      <Footer />
-    </>
+        <Header />
+        
+        <MainContent PageName="Css" designer="salem" />
+        
+        <Footer />
+      </HelmetProvider>
+    </div>
   );
 }
 

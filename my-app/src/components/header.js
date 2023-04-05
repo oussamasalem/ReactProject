@@ -6,7 +6,7 @@ import { Link, NavLink } from "react-router-dom";
 
 const Header = () => {
   return (
-    <div>
+    <div className="header">
       <header className="hide-when-mobile ali">
         <h1>
           <Link to="/">Courses 4 Arab</Link>
