@@ -1,10 +1,8 @@
 
-import { Helmet, HelmetProvider } from 'react-helmet-async';
-
 function App() {
   return (
   <>
-    <HelmetProvider>this is app js </HelmetProvider>
+    <h1>this is app js </h1>
   </>
   );
 }
